@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{88CAC3E8-451C-FA09-9177-75BD5EFDC5E9}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Samples",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
