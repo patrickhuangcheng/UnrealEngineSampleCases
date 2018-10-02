@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{88CAC3E8-451C-FA09-9177-75BD5EFDC5E9}",
+	"EngineAssociation": "{EA0C5AF7-4301-7782-B727-0BA36A1E0471}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "Samples",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
