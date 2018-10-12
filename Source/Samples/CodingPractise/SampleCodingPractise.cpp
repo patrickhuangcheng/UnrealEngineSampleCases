@@ -41,6 +41,22 @@ void ASampleCodingPractise::CalculateDamageValues()
 	}
 }
 
+void ASampleCodingPractise::GetAllObjectsItor()
+{
+	for (TObjectIterator<UObject> It; It; ++It)
+	{
+		UObject* CurrentObject = *It;
+		UE_LOG(LogTemp, Log, TEXT("Found UObject named: %s"), *CurrentObject->GetName());
+	}
+}
+
+
+void ASampleCodingPractise::GetAllObjectsName_BPNative_Implementation()
+{
+	GetAllObjectsName<AActor>();
+}
+
+
 // Called every frame
 void ASampleCodingPractise::Tick(float DeltaTime)
 {
