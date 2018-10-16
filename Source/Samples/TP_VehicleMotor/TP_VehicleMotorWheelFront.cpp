@@ -6,7 +6,7 @@
 
 UTP_VehicleMotorWheelFront::UTP_VehicleMotorWheelFront()
 {
-	ShapeRadius = 250.f;
+	ShapeRadius = 18.0f;
 	ShapeWidth = 50.0f;
 	bAffectedByHandbrake = false;
 	SteerAngle = 40.f;

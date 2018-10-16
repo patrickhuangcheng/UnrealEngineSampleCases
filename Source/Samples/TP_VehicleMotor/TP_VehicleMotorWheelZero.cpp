@@ -9,7 +9,7 @@ UTP_VehicleMotorWheelZero::UTP_VehicleMotorWheelZero()
 	ShapeRadius = 1.f;
 	ShapeWidth = 1.f;
 	bAffectedByHandbrake = false;
-	SteerAngle = 40.f;
+	SteerAngle = 0.f;
 
 	// Setup suspension forces
 	SuspensionForceOffset = -4.0f;
